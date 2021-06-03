@@ -1,2 +1,14 @@
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 https://python-guide.readthedocs.io/en/latest/dev/virtualenvs/
+https://docs.djangoproject.com/en/1.11/ref/models/fields/
+http://127.0.0.1:8000/
+
+vagrant up
+vagrant ssh, exit
+cd /vagrant
+source ~/env/bin/activate
+python manage.py makemigrations profiles_api
+python manage.py migrate
+
+git add .
+git commit -am "Add Message Here"
